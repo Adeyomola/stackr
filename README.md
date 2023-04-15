@@ -8,9 +8,9 @@ This is a simple stack installer, which installs the following tools:
 
 ## HOW TO SET IT UP
 ```
-$ wget -O stackr https://raw.githubusercontent.com/Adeyomola/stackr/main/stackr.sh
-$ chmod u+x stackr
-$ mv ./stackr /usr/local/bin
+wget -O stackr https://raw.githubusercontent.com/Adeyomola/stackr/main/stackr.sh
+chmod u+x stackr
+mv ./stackr /usr/local/bin
 ```
 
 ## COMMANDS
