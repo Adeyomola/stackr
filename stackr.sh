@@ -104,6 +104,12 @@ sudo apt-get install terraform
 fi
 }
 
+function help() { echo -e "Usage: \n stackr [OPTION] [FILE] \n\n ansible -- Install Ansible\
+\n aws-cli -- Install AWS-Cli \n docker -- Install Docker \n kubectl -- Install Kubectl\
+\n minikube -- Install Minikube \n terraform -- Install Terraform\
+\n -h, --help -- Display this help \n"
+}
+
 #case switch
 case $1 in
 "ansible")
@@ -118,4 +124,6 @@ aws-cli;;
 kubectl;;
 "minikube")
 minikube;;
+"-h" | "--help")
+help;;
 esac
